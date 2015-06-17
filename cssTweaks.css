@@ -1,0 +1,101 @@
+#upgrades .title_upgrates,
+#upgrades .title_upgrates.abilities {
+    display: none;
+}
+.cantafford .upgrade .link {
+    background: rgba(127, 140, 141, 1.0);
+}
+.cantafford .upgrade .link:hover {
+    background: rgba(149, 165, 166, 1.0);
+}
+.upgrade.purchase .info .icon,
+.upgrade .info .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.upgrade.purchase .info .level,
+.upgrade .info .level {
+    color: rgba(236, 240, 241, 1.0);
+    font-size: 16px;
+    line-height: 30px;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    right: 0;
+    text-align: right;
+    top: 0;
+    width: 75px;
+}
+.upgrade.purchase .info .level:before,
+.upgrade .info .level:before {
+    color: rgba(236, 240, 241, 1.0);
+    content: "lvl";
+    font-size: 8px;
+    margin: 0;
+    padding: 0;
+    vertical-align: middle;
+}
+.upgrade.purchase .info .name,
+.upgrade .info .name {
+    color: rgba(236, 240, 241, 1.0);
+    font-size: 8px;
+    left: 1px;
+    margin: 0;
+    max-width: 100%;
+    padding: 0;
+    position: absolute;
+    top: 1px;
+    width: 100%;
+}
+.upgrade.purchase .info,
+.upgrade .info {
+    color: rgba(236, 240, 241, 1.0);
+    margin: 0;
+    max-width: 100%;
+    padding: 0;
+    position: absolute;
+    top: -5px;
+    width: 100%;
+}
+.upgrade.purchase .link .cost,
+.upgrade .link .cost {
+    color: rgba(241, 196, 15, 1.0);
+    display: inline-block;
+}
+.upgrade.purchase .link .upgrade_text,
+.upgrade .link .upgrade_text {
+    display: inline-block;
+}
+.upgrade.purchase .link,
+.upgrade .link {
+    background: rgba(142, 68, 173, 1.0);
+    bottom: 0;
+    color: rgba(236, 240, 241, 0.85);
+    display: block;
+    height: auto;
+    left: 0;
+    line-height: 12px;
+    padding: 2px 0;
+    position: absolute;
+    text-align: center;
+    text-decoration: none;
+    width: 175px;
+}
+.upgrade.purchase .link:hover,
+.upgrade .link:hover {
+    background: rgba(155, 89, 182, 1.0);
+}
+.upgrade.purchase,
+.upgrade {
+    background: rgba(52, 73, 94, 1.0);
+    color: rgba(236, 240, 241, 1.0);
+    display: inline-block;
+    height: 20px;
+    margin: 5px;
+    min-height: 0;
+    padding: 0;
+    position: relative;
+    width: 250px;
+    text-shadow: 1px 1px 0 #000;
+}
