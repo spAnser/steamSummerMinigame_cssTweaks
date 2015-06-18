@@ -2,10 +2,12 @@
 #upgrades .title_upgrates.abilities {
     display: none;
 }
-.cantafford .upgrade .link {
+.cantafford .upgrade .link,
+.cantafford .upgrade.purchase .link {
     background: rgba(127, 140, 141, 1.0);
 }
-.cantafford .upgrade .link:hover {
+.cantafford .upgrade .link:hover,
+.cantafford .upgrade.purchase .link:hover {
     background: rgba(149, 165, 166, 1.0);
 }
 .upgrade.purchase .info .icon,
